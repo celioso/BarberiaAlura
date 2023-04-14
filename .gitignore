@@ -13,7 +13,7 @@ bin-release/
 *.ipa
 *.apk
 *.exe
-*.jpg
+#*.jpg
 *.png
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
