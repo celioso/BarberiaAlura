@@ -1,5 +1,8 @@
 /*HEADER*/
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
 header{
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -182,6 +185,7 @@ td, th{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear:left;
 }
 
 .principal p{
@@ -196,6 +200,24 @@ td, th{
     font-style: italic;
 }
 
+.utelsilios{
+    width: 120px;
+    float: left;
+    border-radius: 5px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0px 1px 10px rgba(196, 27, 27, 0.3);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
 .imagenDiferenciales{
     width: 60%;
 }
+
