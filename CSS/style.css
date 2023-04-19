@@ -114,12 +114,6 @@ footer{
 
 /*contacto*/
 
-main{
-    width: 940px;
-    margin: 0 auto;
-
-}
-
 form{
     margin:40px 0;
 }
@@ -181,12 +175,36 @@ td, th{
 .banner{
     width: 100%;
 }
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear:left;
 }
+
+/*.titulo-principal:first-letter{ colocar en negrilla la primer letra
+    font-weight: bold;
+}
+
+.titulo-principal:before{ colocar el corchete al final
+    content: "[";
+}
+
+.titulo-principal:after{ colocar el corchete al inicio
+    content: "]";
+}
+
+p:first-line{
+    font-style: italic; pone la primer lete en italica
+}*/
 
 .principal p{
    margin: 0 0 1em; 
@@ -208,13 +226,26 @@ td, th{
     box-shadow: 0px 1px 10px rgba(196, 27, 27, 0.3);
 }
 
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888)
+    /*background: linear-gradient(90deg, orange 50%, blue, red, black); se crea una bandera 90 deg son los grados  y el 50% es lo que deseamos que opupa del espacio*/
+    /*background: radial-gradient(orange 50%, blue, red, black); para crear un circulo*/
+}
+
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
 
-.mapa{
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
     padding: 3em 0;
+    background: #888888;
 }
 
 .contenido-diferenciales{
@@ -226,6 +257,10 @@ td, th{
     line-height: 1.5;
 }
 
+.items::before{
+    content: "★";
+    /*color: #c78c19; para cambiar el color d ela estrella*/
+}
 .items:first-child{
     font-weight: bold;
 }
