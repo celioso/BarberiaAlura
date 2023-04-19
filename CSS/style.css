@@ -175,6 +175,22 @@ td, th{
 .banner{
     width: 100%;
 }
+/*
+main > p{
+    background: red; aplica solo a los padres
+}
+
+img + p{
+    background: yellow;  lo aplica al parafo despue sde imagen
+}
+
+img ~ p{
+    background: green;  lo aplica a todos los parafos despues de imagen
+}
+
+.principal p:not(#mision){
+    background: #c78c19; lo aplica a todos menos al de mision
+}*/
 
 .principal{
     padding: 3em 0;
